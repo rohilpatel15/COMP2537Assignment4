@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohil Patel Assignment4</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<center>
+  <div id="header1">
+    <h1>Pokemon Card Game</h1>
+    <h4>Level: <span></span>Easy</h4>
+    <h4>Total pairs: <span id="total-pairs"></span></h4>
+    <h4>Pairs left: <span id="pairs-left"></span></h4>
+    <h4>Pairs matched: <span id="pairs-matched">0</span></h4>
+    <h4>Clicks: <span id="clicks">0</span></h4>
+    <h4>Time left: <span id="timer">100</span> seconds</h4>
+  </div>
+</center>
+
+<center>
+  <button onclick="dark1()" id="darkmode1">Dark Mode</button>
+</center>
+
+  <div id="easy-grid">
+    <div class="card1">
+      <img class="front-1" alt="">
+      <img class="back" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front-1" alt="">
+      <img class="back" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front-1" alt="">
+      <img class="back" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front-1" alt="">
+      <img class="back" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front-1" alt="">
+      <img class="back" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front-1" alt="">
+      <img class="back" src="back.webp" alt="">
+    </div>    
+  </div>
+
+<center>
+    <div id="header2">
+      <h1>Pokemon Card Game</h1>
+      <h4>Level: <span></span>Medium</h4>
+      <h4>Total pairs: <span id="total-pairs2"></span></h4>
+      <h4>Pairs left: <span id="pairs-left2"></span></h4>
+      <h4>Pairs matched: <span id="pairs-matched2">0</span></h4>
+      <h4>Clicks: <span id="clicks-2">0</span></h4>
+      <h4>Time left: <span id="timer2">200</span> seconds</h4>
+    </div>
+</center>
+
+<center>
+  <button onclick="dark2()" id="darkmode2">Dark Mode</button>
+</center>
+
+<div id="medium-grid">
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>   
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front-2" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>   
+</div>
+
+<center>
+  <div id="header3">
+    <h1>Pokemon Card Game</h1>
+    <h4>Level: <span></span>Hard</h4>
+    <h4>Total pairs: <span id="total-pairs3"></span></h4>
+    <h4>Pairs left: <span id="pairs-left3"></span></h4>
+    <h4>Pairs matched: <span id="pairs-matched3">0</span></h4>
+    <h4>Clicks: <span id="clicks-3">0</span></h4>
+    <h4>Time left: <span id="timer3">300</span> seconds</h4>
+  </div>
+</center>
+
+<center>
+  <button onclick="dark3()" id="darkmode3">Dark Mode</button>
+</center>
+
+<div id="hard-grid">
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>   
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>  
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>   
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front-3" alt="">
+    <img class="back" src="back.webp" alt="">
+  </div>  
+</div>
+
+<center>
+  <div id="start_screen">
+    <button id="start_button">Start Game</button>
+    <br>
+    <br>
+    <select id="difficulty">
+      <option value="" disabled selected>Select Difficulty:</option>
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>    
+  </div>
+  <br>
+</center>
+
+<center>
+  <div id="reset_screen">
+    <button id="reset_button">Reset Game</button>
+  </div>
+</center>
+</body>
+
+</html>
